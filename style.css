@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    background-color: #807c7c;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/ai-generated-8793079_1280.png), linear-gradient(to right, #e4f8f7, #7decf0);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+}
+
+.container {
+    width:400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#tarefa {
+    width: 350px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+}
+ul {
+    border-radius: 10px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container-elementos{
+    background-color: #faf8fd5d;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 360px;
+}
+
+ .container-li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+
+li {
+    width: 180px;
+    margin: 10px ;
+
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    
+}
+
+.container-check-button {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-left: 5px;
+    width: 1.5rem;
+}
+
+.remover {
+    margin: 10px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #019733;
+    color: #fff;
+    cursor: pointer;
+}
+
+#exibir-mensagem{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 1.2rem;
+    color: #000;
+}
+
